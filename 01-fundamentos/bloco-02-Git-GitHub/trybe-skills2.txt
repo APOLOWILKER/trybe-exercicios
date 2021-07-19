@@ -1,0 +1,6 @@
+O que eu vou aprender na Tybe:
+-Unix
+-Bash
+-Git
+-HTML
+-CSS
