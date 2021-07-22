@@ -1,0 +1,29 @@
+
+      body{
+        font-size: 16px;
+      }
+
+      h1 {
+          font-family: sans-serif;
+          font-size: 65px ;
+          color: orange;
+          background-color: rgba(0, 0, 255, 0.452);
+          font-style: oblique;
+      }
+      ul{
+        background-color:rgba(194, 194, 97, 0.473);
+        font-style: italic;
+        text-align: center;
+        list-style-type:none;
+        line-height: 25px;
+        text-decoration: rgba(223, 11, 11, 0.562);
+      }
+
+      .modificando {
+        background-color: rgba(83, 70, 155, 0.411);
+      }
+
+      .mudandop{
+        font-weight: 600;
+        font-size: 48px;
+      }
