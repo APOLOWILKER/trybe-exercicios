@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    <!-- CSS EXTERNO-->
-    
-    <link rel="stylesheet" type="text/css" href="style.css">
 
-    <!-- CSS INTERNO-->
-    <style>
-/*
-body{
+      body{
         font-size: 16px;
       }
 
@@ -38,16 +27,3 @@ body{
         font-weight: 600;
         font-size: 48px;
       }
-      */
-    </style>
-  </head>
-  <body>
-    <h1>Exercícios 3.2</h1>
-    <p class="modificando mudandop">Qual é a sua cor favorita?</p>
-    <ul class="modificando">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
-    </ul>
-  </body>
-</html>
