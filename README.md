@@ -1,6 +1,7 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Apolo Wilker Carvalho](https://www.linkedin.com/in/apolowilkercarvalhosilva/) enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Apolo Wilker Carvalho]
+<a href="www.linkedin.com/in/apolowilker" target="_blank"> enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa são paga quando conseguir um bom trabalho."_
 
