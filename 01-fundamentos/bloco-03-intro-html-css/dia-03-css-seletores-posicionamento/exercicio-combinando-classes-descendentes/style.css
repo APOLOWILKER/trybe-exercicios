@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;  
+}
+
+h1.italic {
+  font-size: 40px;
+  color: red;
+  border: 1px #000 solid;
+}
+
+h2, h3 {
+  color: red;
+}
+
+h1 {
+  padding: 18px 10px;
+}
+
+h3 {
+  padding: 10px 10px;
+}
+
+ol {
+  background: yellow;
+}
+
+li {
+  padding: 5px;
+  font-size: 20px;
+}
+
+li.italic {
+  font-weight: 600;
+}
+
+li.par {
+  background-color: green;
+}
+
+ol li.impar {
+  text-transform:uppercase;
+}
+
+ol li.size:hover {
+  text-transform: 24px;
+}
+
+li.first {
+  color:blue;
+}
+
+li.java{
+  background-color:pink;
+}
+
+ul.allies li {
+  background-color: #fff;
+}
+
+ul.allies li:hover {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+li.flow:hover {
+  background-color:orange;
+} 
+
+li.w3:hover {
+  background-color:green;
+}
+
+li.mdn:hover {
+  background-color:black;
+  color:#fff;
+}
+
+li.docsdev:hover{
+  background-color: yellow;
+}
+
+li.try:hover {
+  background-color:darkgreen;
+}
