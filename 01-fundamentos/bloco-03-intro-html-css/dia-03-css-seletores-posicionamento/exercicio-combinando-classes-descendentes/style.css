@@ -8,22 +8,24 @@ h1.italic {
   font-size: 40px;
   color: red;
   border: 1px #000 solid;
+  padding: 10px;
 }
 
 h2, h3 {
   color: red;
-}
-
-h1 {
-  padding: 18px 10px;
-}
-
-h3 {
   padding: 10px 10px;
 }
 
 ol {
   background: yellow;
+}
+
+ol li:nth-child(even){
+  background-color:green;
+}
+
+ol li:nth-child(odd) {
+  text-transform:uppercase;
 }
 
 li {
@@ -39,9 +41,7 @@ li.par {
   background-color: green;
 }
 
-ol li.impar {
-  text-transform:uppercase;
-}
+
 
 ol li.size:hover {
   text-transform: 24px;
