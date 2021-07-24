@@ -1,0 +1,43 @@
+* {
+  border: 0;
+  padding: 0;
+}
+
+h1, p {
+  text-align: center;
+
+}
+
+ol, ul, li {
+  padding: 10px;
+  text-align: justify;
+  max-width:100%;
+}
+
+ol, li,a {
+  background-color: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: all .6s ;
+}
+/* ======= conteudo de transition: https://blog.betrybe.com/css/hover-css/ ===== */
+
+
+li {
+  transition: all .6s ;
+}
+
+
+li:hover {
+  font-size: 20px;
+  background-color:#ad6628;
+  text-decoration:none;
+  transition-timing-function: ease-in-out;
+}
+
+ol, ul {
+  list-style: none;
+}
