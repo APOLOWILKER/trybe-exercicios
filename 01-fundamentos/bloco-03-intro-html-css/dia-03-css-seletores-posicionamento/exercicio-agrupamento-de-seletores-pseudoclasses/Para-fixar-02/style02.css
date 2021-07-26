@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div{
+  display: block;
+  padding:30px;
+}
+
+div:hover {
+  border: solid black 5px;
+  padding: 10px;
+}
+
+#size{
+  font-size: 40px;
+}
+
+
+
+#first{
+  background-color:blue;
+  font-style: italic;
+  content: 50px;
+}
+
+#second{
+  background-color:green;
+}
+
+#third{
+  background-color:yellow;
+  font-style: italic;
+}
+
+#fourth{
+  background-color:purple;
+}
+
+#fifth{
+  background-color:red;
+  font-style: italic;
+}
