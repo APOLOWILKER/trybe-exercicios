@@ -34,12 +34,12 @@ let numbersMultiplica = []
 
 for (let index = 0; index < numbers.length; index += 1) {
 
-if (index === numbers.length-1){
+  if (index === numbers.length-1){
 
-numbersMultiplica.push(numbers[index] * 2)
+  numbersMultiplica.push(numbers[index] * 2)
 
-} else {
-numbersMultiplica.push(numbers[index] * numbers[index+1])
+  } else {
+  numbersMultiplica.push(numbers[index] * numbers[index+1])
 }
 }
 console.log(numbersMultiplica); 
