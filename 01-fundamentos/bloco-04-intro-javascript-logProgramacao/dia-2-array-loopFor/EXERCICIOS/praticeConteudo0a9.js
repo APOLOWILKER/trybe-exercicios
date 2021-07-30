@@ -15,3 +15,20 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // EXERCICIO 01 - Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() ;
 
 console.log(numbers)
+
+let contador = [];
+
+for (let index = 1; index <= 25; index += 1) {
+  contador.push(index)
+}
+console.log(contador);
+
+
+// exercicio 9
+
+let contador = [];
+
+for (let index = 1; index <= 25; index += 1) {
+  contador.push(index / 2)
+}
+console.log(contador);

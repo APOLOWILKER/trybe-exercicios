@@ -1,3 +1,0 @@
-
-
-let maiorNumero += 1
