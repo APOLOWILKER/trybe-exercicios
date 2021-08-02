@@ -1,10 +1,10 @@
-
-
+// for/in - madeira mais dinamica de criar um for.
+/* muito utilizado em objetos */
 
 let cars = ['Saab', 'Volvo', 'BMW'];
 
 for (let index in cars) {
-  console.log(cars[index]);
+  console.log(cars[index]); // assim eu mostro chaves e valores. o [index] e o que mostra os valores, e o nome do objeto;
 }
 
 // Um outro exemplo é a iteração nas chaves de um objeto:
