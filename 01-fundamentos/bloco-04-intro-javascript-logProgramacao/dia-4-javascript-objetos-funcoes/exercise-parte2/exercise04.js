@@ -5,7 +5,7 @@ let teste = ['José', 'Lucas', 'Nádia', 'Fernandos', 'Cairo', 'Joana', 'Fernand
 function maisCaracteres (listName) {
   let indiceMaiorString = 0;
   for (let index in listName) {
-    if(listName[indiceMaiorString] <= listName[index]) {
+    if(listName[indiceMaiorString].length <= listName[index].length) {
       indiceMaiorString = index;
     }
   }

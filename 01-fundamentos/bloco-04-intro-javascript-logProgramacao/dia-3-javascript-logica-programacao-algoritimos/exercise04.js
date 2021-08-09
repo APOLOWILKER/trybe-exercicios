@@ -7,17 +7,17 @@ let linhaEntrada = "";
 let posicaoEntrada = n;
 
 
-for (let lineIndex = 0; lineIndex < n; lineIndex += 1){
+for (let lineIndex = 1; lineIndex < n; lineIndex += 2){
   for (let columnIndex = 0;columnIndex <= n; columnIndex += 1) {
     console.log('colunaindex' + columnIndex)
     if(columnIndex < posicaoEntrada) {
-      console.log('linhaEntrada' + linhaEntrada)
+      // console.log('linhaEntrada' + linhaEntrada)
       linhaEntrada += 'E';
       console.log('linhaEntrada2' + linhaEntrada)
     } else {
-      console.log('linhade entrada Else' + linhaEntrada)
+      // console.log('linhade entrada Else' + linhaEntrada)
       linhaEntrada +=  asterisco;
-      console.log('linhade entrada Else2' + linhaEntrada)
+      // console.log('linhade entrada Else2' + linhaEntrada)
     }
   }   
   console.log(linhaEntrada);
