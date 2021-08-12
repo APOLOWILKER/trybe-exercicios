@@ -10,8 +10,8 @@ const myWebpage = document.getElementById('my-spotrybefy');
 function criaTech (insereClasse){
   let selecionaTech = document.querySelector('.tech');
   insereClasse.target.className = "tech"
-
 };
+
 criaTech(insereClasse);
 
 // 2.1 Deve existir apenas um elemento com a classe 'tech'. Como você faz isso? 
