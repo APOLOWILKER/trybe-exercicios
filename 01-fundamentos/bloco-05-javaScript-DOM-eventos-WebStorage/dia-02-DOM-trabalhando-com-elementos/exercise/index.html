@@ -62,62 +62,71 @@
       
 
       // Para uma melhor organização, faça commits a cada tarefa concluída. Vamos aos exercícios:
+
 // Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body ;
-
-
-let title = document.createElement("h1");
-title.innerHTML = "Exercício 5.2 - JavaScript DOM";
-let cuerpo = document.querySelector('body');
-cuerpo.appendChild(title);
+let paiDetodos = document.querySelector('body')
+let corpo = document.createElement('h1');
+corpo.innerHTML = "Exercício 5.2 - JavaScript DOM"
+paiDetodos.appendChild(corpo);
 
 // Adicione a tag main com a classe main-content como filho da tag body;
-
-let corpo = document.createElement('main');
-corpo.className = 'main-content'
-cuerpo.appendChild(corpo);
+let principal = document.createElement('main')
+principal.className = "main-content"
+paiDetodos.appendChild(principal);
 
 // Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
-
-let sessao = document.createElement('section');
-sessao.className = 'center-content'
-corpo.appendChild(sessao) 
-
-// Adicione a tag main com a classe main-content como filho da tag body ;
-
-
+let pedaco = document.createElement('section')
+pedaco.className = 'center-content'
+principal.appendChild(pedaco);
 
 // Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
-
-
+let parag = document.createElement('p')
+parag.innerHTML = 'Ta sendo foda'
+pedaco.appendChild(parag);
 
 // Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
-
-
+let pedaco2 = document.createElement('section')
+pedaco2.className = 'left-content';
+principal.appendChild(pedaco2);
 
 // Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
-
-
+let pedaco3 = document.createElement('section')
+pedaco3.className = 'right-content';
+principal.appendChild(pedaco3);
 
 // Adicione uma imagem com src configurado para o valor https:/picsum.photos/200 e classe small-image . Esse elemento deve ser filho do section criado no passo 5;
-
-
+let image = document.createElement("img");
+image.src = 'https:/picsum.photos/200'
+image.className = 'small-image';
+pedaco2.appendChild(image);
 
 // Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+let numExtenso = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"]
 
+let listaOrd = document.createElement("ul");
 
+for (let number of numExtenso){
+  let el = document.createElement("li");
+  el.innerHTML = number;
+  pedaco3.appendChild(el);
+}
 
 // Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
-
-
+let text01h3 = document.createElement("h3");
+let text02h3 = document.createElement("h3");
+let text03h3 = document.createElement("h3");
+principal.appendChild(text01h3);
+principal.appendChild(text02h3);
+principal.appendChild(text03h3);
 
 // Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
 // Adicione a classe title na tag h1 criada;
-
-
+corpo.className = 'title'
 
 // Adicione a classe description nas 3 tags h3 criadas;
-
-
+text01h3.className = 'description'
+text02h3.className = 'description'
+text03h3.className = 'description'
 
 // Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild() ;
 
