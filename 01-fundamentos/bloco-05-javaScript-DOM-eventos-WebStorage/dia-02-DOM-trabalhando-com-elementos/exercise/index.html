@@ -108,8 +108,9 @@ let listaOrd = document.createElement("ul");
 for (let number of numExtenso){
   let el = document.createElement("li");
   el.innerHTML = number;
-  pedaco3.appendChild(el);
+  listaOrd.appendChild(el);
 }
+pedaco3.appendChild(listaOrd);
 
 // Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
 let text01h3 = document.createElement("h3");
@@ -129,19 +130,19 @@ text02h3.className = 'description'
 text03h3.className = 'description'
 
 // Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild() ;
-
+principal.removeChild(pedaco2);
 
 
 // Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto da section ;
-
+// pedaco3.style.marginRight = "center";**
 
 
 // Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
-
+pedaco.style.background = "green";
 
 
 // Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
-
+pedaco3.previousSibling.remove(el);
 
 
     </script>
