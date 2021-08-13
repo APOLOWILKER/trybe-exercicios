@@ -23,10 +23,35 @@ Os dias 4, 11, 18 e 25 são Sexta-feira. Eles devem conter a classe day e a clas
 
 const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];;
 
+function createDaysNumber (){
+  const numberDaysList = document.querySelector('#days');
+
+  for (let index = 0; index < dezDaysList.length; index += 1) {
+    const days = dezDaysList[index];
+    const numberListItem = document.createElement('li');
+    numberListItem.className = 'day'
+    numberListItem.innerHTML = days; 
+    numberDaysList.appendChild(numberListItem);
+    
+    if (days === 24 | days === 25 | days === 31){
+      numberListItem.className = 'day holiday';
+    }
+    if (days === 4 | days === 11 | days === 18) {
+      numberListItem.className = 'day friday';
+    }
+    if (days === 25) {
+      numberListItem.className = 'day holiday friday';
+    }
+  };
+
+};
+createDaysNumber();
+
 /* Exercício 2:
 Implemente uma função que receba como parâmetro a string "Feriados" e crie dinamicamente um botão com o nome "Feriados".
 Adicione a este botão a ID "btn-holiday" .
 Adicione este botão como filho/filha da tag <div> com classe "buttons-container" .*/
+
 
 
 /* Exercício 3:
