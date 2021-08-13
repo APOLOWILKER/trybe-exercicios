@@ -100,18 +100,28 @@ Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click
 É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias.*/
 let buttonSelectFriday = document.querySelector('#btn-friday');
 let selectFriday = document.querySelectorAll('.friday');
+console.log(selectFriday)
+
+let backupValue = [];
+
+function returnNumberDay (){
+  for (let index = 0; index < selectFriday.length; index += 1) {
+    backupValue.push(parseInt(selectFriday[index].innerText)); // aplicação ParseInt deve englobar todo o elemento a ser transformado.
+  }  
+}
+returnNumberDay();
+console.log(backupValue)
+
 
 function changeText() {
-
- let sextouTextName = 'Sextou!!';  
-
- for (let index = 0; index < selectFriday.length; index += 1){
-   let backupValue = (selectFriday[index].innerText)
+  
+  let sextouTextName = 'Sextou!!';  
+  
+  for (let index = 0; index < selectFriday.length; index += 1){
    if (selectFriday[index].innerText !== sextouTextName){
-     selectFriday[index].innerText = sextouTextName;
+      selectFriday[index].innerText = sextouTextName;
     } else {
-      sextouTextName = backupValue;
-      console.log(backupValue)
+      selectFriday[index].innerText = backupValue[index]      
     }
   } 
 }
@@ -122,6 +132,8 @@ buttonSelectFriday.addEventListener('click',changeText);
 /* Exercício 6:
 Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
 Dica - Propriedade: event.target. */
+
+
 
 /* Exercício 7:
 Implemente uma função que adiciona uma tarefa personalizada ao calendário. A função deve receber como parâmetro a string com o nome da tarefa (ex: "cozinhar") e criar dinamicamente um elemento com a tag <span> contendo a tarefa.
