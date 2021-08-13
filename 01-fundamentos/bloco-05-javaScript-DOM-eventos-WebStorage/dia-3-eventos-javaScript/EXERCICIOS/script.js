@@ -60,17 +60,26 @@ function createButonHoliday (nameButonText) {
   buttonHoliday.innerHTML = nameButonText;
   addButons.appendChild(buttonHoliday);
 };
-createButonHoliday('');
+createButonHoliday('Feriados');
 
 /* Exercício 3:
 Implemente uma função que adicione ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .
 É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)" .*/
 
+let selectButton = document.querySelector('#btn-holiday');
+let selectHoliday = document.querySelectorAll('.holiday');
 
 function paintButton () {
 
+  for (let index in selectHoliday) {
+    if (selectHoliday[index].style.backgroundColor !== 'blue') {
+      selectHoliday[index].style.backgroundColor = 'blue';
+    } else {
+      selectHoliday[index].style.backgroundColor = 'rgb(238,238,238)';
+    }
+  } 
 };
-
+selectButton.addEventListener("click", paintButton);
 
 /* Exercício 4:
 Implemente uma função que receba como parâmetro a string "Sexta-feira" e crie dinamicamente um botão com o nome "Sexta-feira".
