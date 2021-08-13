@@ -52,11 +52,24 @@ Implemente uma função que receba como parâmetro a string "Feriados" e crie di
 Adicione a este botão a ID "btn-holiday" .
 Adicione este botão como filho/filha da tag <div> com classe "buttons-container" .*/
 
+function createButonHoliday (nameButonText) {
 
+  let addButons = document.querySelector('.buttons-container');
+  let  buttonHoliday = document.createElement('button');
+  buttonHoliday.id = 'btn-holiday';
+  buttonHoliday.innerHTML = nameButonText;
+  addButons.appendChild(buttonHoliday);
+};
+createButonHoliday('');
 
 /* Exercício 3:
 Implemente uma função que adicione ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .
 É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)" .*/
+
+
+function paintButton () {
+
+};
 
 
 /* Exercício 4:
