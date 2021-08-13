@@ -51,10 +51,10 @@ createDaysNumber();
 Implemente uma função que receba como parâmetro a string "Feriados" e crie dinamicamente um botão com o nome "Feriados".
 Adicione a este botão a ID "btn-holiday" .
 Adicione este botão como filho/filha da tag <div> com classe "buttons-container" .*/
+let addButons = document.querySelector('.buttons-container');
 
 function createButonHoliday (nameButonText) {
 
-  let addButons = document.querySelector('.buttons-container');
   let  buttonHoliday = document.createElement('button');
   buttonHoliday.id = 'btn-holiday';
   buttonHoliday.innerHTML = nameButonText;
@@ -86,10 +86,19 @@ Implemente uma função que receba como parâmetro a string "Sexta-feira" e crie
 Adicione a este botão o ID "btn-friday" .
 Adicione este botão como filho/filha da tag <div> com classe "buttons-container". */
 
+function createButtonFriday (nametextButton) {
+  let buttonFriday = document.createElement('button');
+  buttonFriday.id = 'btn-friday';
+  buttonFriday.innerHTML = nametextButton;
+  addButons.appendChild(buttonFriday);
+}
+createButtonFriday('Sexta-feira');
 
 /* Exercício 5:
 Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
 É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias.*/
+
+
 
 /* Exercício 6:
 Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
