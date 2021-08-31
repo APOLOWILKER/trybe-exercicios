@@ -23,45 +23,45 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ :white_check_mark:] 3-1: _HTML & CSS - Estruturas de página_
 - [ :white_check_mark:] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _[Projeto - HTML & CSS]()_
+- [ :white_check_mark: ] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [ :white_check_mark: ] 3-4: _HTML Semântico_
+- [ :white_check_mark: ] 3-5: _[Projeto - HTML & CSS]()_
 
 ##### Bloco 4: Introdução - JavaScript
 
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e funções_
-- [ ] 4-5: _[Projeto - Playground Functions]()_
+- [ :white_check_mark: ] 4-1: _JavaScript - Primeiros passos_
+- [ :white_check_mark: ] 4-2: _JavaScript - Array e loop For_
+- [  :white_check_mark:] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [  :white_check_mark:] 4-4: _JavaScript - Objetos e funções_
+- [  :white_check_mark:] 4-5: _[Projeto - Playground Functions]()_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+- [  :white_check_mark:] 5-1: _JavaScript - DOM e seletores_
+- [  :white_check_mark:] 5-2: _JavaScript - Trabalhando com elementos_
+- [  :white_check_mark:] 5-3: _JavaScript - Eventos_
+- [  :white_check_mark:] 5-4: _JavaScript - Web Storage_
+- [  :white_check_mark:] 5-5: _[Projeto - Meme Generator]()_
+- [  :white_check_mark:] 5-6: _[Projeto - Arte com Pixels]()_
+- [  :white_check_mark:] 5-7: _[Projeto - Lista de tarefas]()_
+- [  :white_check_mark:] 5-7: _[Projeto - Adivinhe a Cor]()_
+- [  :white_check_mark:] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
+- [ :white_check_mark: ] 6-1: _HTML & CSS - Forms_
+- [  :white_check_mark:] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [ :white_check_mark: ] 6-3: _CSS Flexbox - Part 1_
+- [ :white_check_mark: ] 6-4: _CSS Flexbox - Part 2_
+- [  :white_check_mark:] 6-5: _CSS Responsivo - Mobile First_
+- [ :white_check_mark: ] 6-6: _[Projeto - Página inicial do Facebook]()_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitÃ¡rios em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [  :white_check_mark:] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [ :white_check_mark: ] 7-2: _JavaScript ES6 - Objects_
+- [ :white_check_mark: ] 7-3: _Testes unitÃ¡rios em JavaScript_
+- [ :white_check_mark: ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: JavaScript ES6
 
