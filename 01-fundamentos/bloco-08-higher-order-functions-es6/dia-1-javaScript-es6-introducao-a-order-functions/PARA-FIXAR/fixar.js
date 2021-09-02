@@ -9,11 +9,15 @@
 const wakeUp = () => 'Acordando!!'
 const coffeMorning = () => 'Bora tomar café!!'
 const sleepTime = () => 'Partiu dormir!!'
-const doingThings = (func) => func();
+const doingThings = (func) => {
+  const result = func();
+  console.log(result);
+}
 // Ao chamar a função doingThings:
-console.log(doingThings(wakeUp));
-console.log(doingThings(coffeMorning));
-console.log(doingThings(sleepTime));
+
+doingThings(wakeUp);
+doingThings(coffeMorning);
+doingThings(sleepTime);
 
 
 // Ela deve retornar o valor do respectivo parâmetro, neste caso:
