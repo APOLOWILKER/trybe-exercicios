@@ -4,17 +4,18 @@ const createEmail = (fullName) => {
   const email = fullName.toLowerCase().split(' ').join('_');
   return {fullName, email: `${email}@trybe.com`};
 }
+
 /*
 ToLowerCase - transforma as palavras em caixa baixa, deixa minuscula.
 split - quebra a palavra ou frase que estou pedindo, criando um array de strings.
 join - e usada para unir palavras e ou frases.
 */
 
-const newEmployees = (createEmail) => {
+const newEmployees = (calback) => {
   const employees = {
-    id1: createEmail('Pedro Guerra'), // Nome: Pedro Guerra -> Chame sua função passando o nome Pedro Guerra como parâmetro, substituindo as aspas
-    id2: createEmail('Luiza Drumond'), // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro, substituindo as aspas
-    id3: createEmail('Carla Paiva'), // Nome: Carla Paiva -> Chame sua função passando o nome Carla Paiva como parâmetro, substituindo as aspas
+    id1: calback('Pedro Guerra'), // Nome: Pedro Guerra -> Chame sua função passando o nome Pedro Guerra como parâmetro, substituindo as aspas
+    id2: calback('Luiza Drumond'), // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro, substituindo as aspas
+    id3: calback('Carla Paiva'), // Nome: Carla Paiva -> Chame sua função passando o nome Carla Paiva como parâmetro, substituindo as aspas
   }
   return employees;
 };

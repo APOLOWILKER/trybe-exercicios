@@ -11,15 +11,16 @@ const people = [
 const verifyAges = (arr, minimumAge) => {
   //Adicione seu código aqui
   const ageAval = arr.every((person) => person.age >= minimumAge);
-  function result () {
-    if (ageAval === true) {
-    `Pode tocar o som `
+  
+  // function result () {
+    if (ageAval) {
+      return `Pode tocar o som `
     } else {
-    `Existem menores de idade na sua festa`
+      return `Existem menores de idade na sua festa`
     }
-    // co0mo imprimir isso??
-  }
-  return ageAval;
+    // como imprimir isso??
+  // }
+  // return result();
 }
 
 console.log(verifyAges(people, 18));

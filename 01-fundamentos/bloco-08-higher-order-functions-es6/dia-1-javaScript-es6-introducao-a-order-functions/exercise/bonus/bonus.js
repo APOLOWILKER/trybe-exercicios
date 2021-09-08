@@ -86,7 +86,7 @@ const gameActions = {
     dragon.damage = damageD;
   },
   resultBattle: () => {
-    gameActions.turnWarrior(warriorDamage);
+    gameActions.turnWarrior(warriorDamage); 
     gameActions.turnMage(mageDamage);
     gameActions.turnDragon(dragonDamage);
     return battleMembers;

@@ -12,13 +12,14 @@ const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 // const calculadora = (n1, n2, op) => console.log(arguments[1]);
 
 // console.log(calculadora(10, 7, multi));
+
 const checarResposta = (gabarito, resposta) => {
   let resultado  = 0;
   for (let index = 0; index < gabarito.length; index+= 1) {
     if ( gabarito[index] === resposta[index]) {
       resultado += 1;
     } else if (resposta[index] === 'N.A') {
-      resultado -= 0.5
+      resultado -= 0.5;
     }
   }
   return resultado;

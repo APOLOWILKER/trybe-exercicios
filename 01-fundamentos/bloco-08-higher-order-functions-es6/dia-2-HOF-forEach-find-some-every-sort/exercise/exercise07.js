@@ -66,12 +66,24 @@ const books = [
 
 // Adicione o código do exercício aqui:
 const expectedResult = false;
+// function seachYearEqual (bookAuthor) {
+//   for (let index= 0; index < books.length; index += 1) {
+//       if (books[index].author.birthYear === bookAuthor.author.birthYear && books[index].author.name !== bookAuthor.author.name) {
+//         return false
+//       }
+    
+//   }
+//   return true
+// }
 
-function authorUnique() {
+// function authorUnique() {  
+//   // escreva seu código aqui
+//   return books.every((seachYearEqual));
+// }
+
+function authorUnique() {  
   // escreva seu código aqui
-  let result = books.every((birthEqual) => !books.some((bookSome) => (bookSome.author.birthYear === birthEqual.author.birthYear) && (bookSome.author.name !== birthEqual.author.name)));
-
-  return result;
+  return books.every((bookAuthor) => !books.some((bookAuthor2) => bookAuthor2.author.birthYear === bookAuthor.author.birthYear && bookAuthor.author.name !== bookAuthor2.author.name));
 }
 
 assert.strictEqual(authorUnique(), expectedResult);
