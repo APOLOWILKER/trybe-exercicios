@@ -75,7 +75,7 @@ const expectedResult = [
 ];
 
 function fantasyOrScienceFictionAuthors() {
-  // escreva seu código aqui
+  return books.filter((elemento) => elemento.genre === 'Ficção Científica' || elemento.genre === 'Fantasia').map((elemento) => elemento.author.name).sort();
 }
 
 assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult);
