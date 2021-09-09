@@ -74,7 +74,8 @@ const expectedResult = [
 ];
 
 function oldBooks() {
-  // escreva seu código aqui
+  let date = new Date();
+  return books.filter((elemento) => (date.getFullYear() - elemento.releaseYear) > 60).map((elementName) => elementName.name).sort((objA, objB) => objA.releaseYear- objB.releaseYear);
 }
 
 assert.deepStrictEqual(oldBooks(), expectedResult);
