@@ -10,10 +10,9 @@ const names = [
 
 function containsA() {
   return names.reduce((acumuladorACC, elementoAtualCURR) => 
-    acumuladorACC + elementoAtualCURR.split('').reduce((acumulador, current) => {
-      if (current === 'a' || current === 'A') return acumulador + 1;
-      return acumulador;
+  acumuladorACC + elementoAtualCURR.split('').reduce((acumulador, current) => {
+      return (current === 'a' || current === 'A') ? acumulador + 1 :  acumulador;
     }, 0), 0);
 }
 
-assert.deepStrictEqual(containsA(), 20);
+assert.deepStrictEqual(containsA(), 20); 
