@@ -26,5 +26,5 @@
 
 const techList = (listTech, name) => listTech.length === 0 ? 'Vazio!' : listTech.sort().map((tech) => ({  name, tech,  }));
 
-
+console.log(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'joao'));
 module.exports = techList;
