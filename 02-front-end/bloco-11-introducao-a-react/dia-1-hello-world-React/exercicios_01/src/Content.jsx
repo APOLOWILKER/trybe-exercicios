@@ -27,7 +27,7 @@ class Content extends React.Component{
     ];
 
     const LisConteudos = conteudos.map((cont, id) => 
-    <li key={`${cont} ${id}`} className="conteudos">  O conteúdo é: {cont.conteudo}
+    <li key={id} className="conteudos">  O conteúdo é: {cont.conteudo}
     Status: {cont.status}
     Bloco: {cont.bloco} </li>
     );
