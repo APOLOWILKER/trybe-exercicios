@@ -19,11 +19,15 @@ ul, li {
 
 .conteudos {
   background-color: rgb(49, 44, 44);
+  height: 80px;
+  width: 300px;
   padding: 10px;
   color: aliceblue;
   font-size: 22px;
   border-radius: 8px;
-  box-shadow: -5px 5px 8px black ;
+  box-shadow: -5px 5px 8px black;
+  margin: 10px;
+  text-align: center;
 }
 
 .footer {
@@ -31,4 +35,5 @@ ul, li {
   padding: 10px;
   color: aliceblue;
   text-align: center;
+  padding: 8px;
 }

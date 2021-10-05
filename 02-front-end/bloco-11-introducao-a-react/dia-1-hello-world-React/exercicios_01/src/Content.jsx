@@ -26,14 +26,14 @@ class Content extends React.Component{
       },
     ];
 
-    const LisConteudos = conteudos.map((cont) => 
-    `O conteúdo é: ${cont.conteudo}
-    Status: ${cont.status}
-    Bloco: ${cont.bloco}`
+    const LisConteudos = conteudos.map((cont, id) => 
+    <li key={`${cont} ${id}`} className="conteudos">  O conteúdo é: {cont.conteudo}
+    Status: {cont.status}
+    Bloco: {cont.bloco} </li>
     );
     return (
       <div>
-      <ul key="" className="lista-conteudos"> <li className="conteudos">{LisConteudos} </li> </ul>
+      <ul  className="lista-conteudos"> {LisConteudos}  </ul>
       </div>
     )
   }
