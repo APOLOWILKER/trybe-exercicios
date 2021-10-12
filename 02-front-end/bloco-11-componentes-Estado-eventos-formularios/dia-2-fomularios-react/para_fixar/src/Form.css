@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: bisque;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  max-height: 80%;
+  background-color: rgba(92, 92, 86, 0.445);
+}
